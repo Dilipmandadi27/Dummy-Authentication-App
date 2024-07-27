@@ -8,7 +8,10 @@
 }
 
 body{
-  background-color: #F8FAFC;
+  background: url("./assets/bg.png");
+  background-position: center;
+  background-size: cover;
+  /* background-color: #F8FAFC; */
   width: 1280px;
   margin: 0 auto;
   min-height: 100vh;  
@@ -85,6 +88,7 @@ body{
   text-transform: uppercase;
   font-weight: 700;
   font-size: 16px;
+  cursor: pointer;
 }
 
 p{
@@ -92,6 +96,7 @@ p{
   font-weight: 700;
   margin-top: -15px;
   font-size: 14px;
+  cursor: pointer;
 }
 
 .body-class p{
@@ -114,12 +119,33 @@ font-size: 14px;
 
 .profile-container {
   padding: 20px;
+  width: 450px;
+  text-align: center;
+  text-decoration: underline;
+  border: 2px solid #DEDEDE;
+}
+
+.profile-container h2{
+  padding-bottom: 20px;
 }
 
 .profile-container p {
   margin: 5px 0;
+  font-size: 18px;
 }
 
+.profile-container button{
+  background-color: #463EEA;
+  color: white;
+  padding: 12px;
+  border-radius: 8px;
+  margin-top: 15px;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+}
 
 /* @media queries */
 
@@ -129,6 +155,9 @@ font-size: 14px;
   body{
     width: 90%;
     margin: 0 auto;
+    background: url("./assets/bg.png");
+    background-position: center;
+    background-size: cover;
   }
 /* 
   .main-container{
@@ -144,6 +173,10 @@ font-size: 14px;
   body{
     width: 60%;
     margin: 0 auto;
+    background: url("./assets/bg.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
   }
   .main-container{
     max-width: 352px;
@@ -161,4 +194,12 @@ font-size: 14px;
   .input-container input,button{
     width: 282px;
   }
+
 }
+
+@media (0 < width < 765px){
+body{
+  background: none;
+}
+
+} 

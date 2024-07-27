@@ -15,9 +15,9 @@ const Container = ({handleLogin,error,password,username,setPassword,setUserName,
       </div>
       <div className="input-container">
         <label>Your email</label>
-        <input type="text" value={username} onChange={(e) => setUserName(e.target.value)}/>
+        <input type="text" value={username} onChange={(e) => setUserName(e.target.value)} required/>
         <label>Password</label>
-        <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} />
+        <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} required/>
         <button onClick={handleLoginClick}>Continue</button>
 
         {error && (
