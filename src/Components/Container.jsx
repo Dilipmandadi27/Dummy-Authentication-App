@@ -1,7 +1,6 @@
 import React from 'react'
 import '../App.css'
 import ProfilePage from './ProfilePage'
-import { useState } from 'react'
 
 
 const Container = ({handleLogin,error,password,username,setPassword,setUserName,handleLoginClick}) => {
