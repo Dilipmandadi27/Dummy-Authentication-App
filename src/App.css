@@ -84,7 +84,7 @@ body{
   border: none;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 p{
@@ -118,4 +118,47 @@ font-size: 14px;
 
 .profile-container p {
   margin: 5px 0;
+}
+
+
+/* @media queries */
+
+
+@media (0 < width < 1200px) {
+
+  body{
+    width: 90%;
+    margin: 0 auto;
+  }
+/* 
+  .main-container{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+   */
+}
+
+@media (0 < width < 800px) {
+  body{
+    width: 60%;
+    margin: 0 auto;
+  }
+  .main-container{
+    max-width: 352px;
+    min-height: 457px;
+  }
+
+  .contents{
+    margin-left: -40px;
+  }
+
+  .contents h2{
+    font-size: 22px;
+  }
+
+  .input-container input,button{
+    width: 282px;
+  }
 }
