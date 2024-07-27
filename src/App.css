@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Outfit:wght@100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+}
+
+body{
+  background-color: #F8FAFC;
+  width: 1280px;
+  margin: 0 auto;
+  min-height: 100vh;  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* div{
+  display: none;
+} */
+
+.main-container{
+  width: 444px;
+  min-height: 454px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  gap: 25px;
+  padding: 48px;
+  box-shadow: 0 5px 6px rgba(75, 75, 75, 0.1);
+  border-radius: 8px;
+
+}
+.contents{
+  line-height: 1.4;
+  margin-left: -90px;
+}
+.contents h3{
+  color: rgb(117,117,117);
+  text-align: start;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.8;
+
+}
+
+.contents h2{
+  font-weight: 700;
+  text-align: start;
+}
+
+.input-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-bottom: 15px;
+
+}
+
+.input-container label{
+  line-height: 2;
+  font-size: 14px;
+}
+
+.input-container input{
+  width: 352px;
+  height: 45px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #DEDEDE;
+  padding: 8px;
+}
+
+.input-container button{
+  background-color: #463EEA;
+  color: white;
+  padding: 12px;
+  border-radius: 8px;
+  margin-top: 15px;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+p{
+  color: #625BF7;
+  font-weight: 700;
+  margin-top: -15px;
+  font-size: 14px;
+}
+
+.body-class p{
+  padding-top: 70px;
+  text-align: center;
+color: black !important;
+font-weight: 500;
+font-size: 14px;
+}
+
+.body-class p span{
+  color: #463EEA;
+}
+
+.error-message p{
+  color: red;
+  font-size: 0.875em;
+  margin-top: 10px;
+}
+
+.profile-container {
+  padding: 20px;
+}
+
+.profile-container p {
+  margin: 5px 0;
+}
